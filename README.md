@@ -1,9 +1,9 @@
 ## Requirements
-
-* Install python, pytorch. We use Python , Pytorch , .
-* If you plan to use GPU computation, install CUDA
+python ==  pytorch ==  numpy ==  pandas ==  scikit-learn ==   
 
 ## Data preparation
-We do not provide the MIMIC-III data itself. You must acquire the data yourself from https://mimic.physionet.org/. Specifically, download the CSVs. To run decompensation prediction task on MIMIC-III bechmark dataset, you should first build benchmark dataset according to https://github.com/YerevaNN/mimic3-benchmarks/.
+We do not provide the MIMIC-III and eICU data ourselves. You must acquire the data yourself from https://mimic.physionet.org/ and https://eicu-crd.mit.edu. 
+
+
 
 After building the decompensation dataset, please save the files in ```decompensation``` directory to ```data/``` directory.
