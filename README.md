@@ -9,11 +9,11 @@ Detailed information of data extraction on the MIMIC-III and eICU databases can 
 main.py contains both training code and evaluation code.
 
 ## Ablation Studies
-$\mathbf{Ours_{\alpha}}$ (A variation of our approach that treats only the anchor and its counterparts in different graph views as positives):  
+$\mathbf{Our_{\alpha}}$ (A variation of our approach that treats only the anchor and its counterparts in different graph views as positives):  
 xxx  
-$\mathbf{Ours_{\beta}}$ (A variation of our approach that omits the node connected to the anchor, which tests the efficacy of node-level clustering on patient graphs):  
+$\mathbf{Our_{\beta}}$ (A variation of our approach that omits the node connected to the anchor, which tests the efficacy of node-level clustering on patient graphs):  
 xxx  
-$\mathbf{Ours_{\gamma}}$ (A variation of our approach that omits the neighbors of the anchor):  
+$\mathbf{Our_{\gamma}}$ (A variation of our approach that omits the neighbors of the anchor):  
 xxx  
-$\mathbf{Ours_{\delta}}$ (A variation of our approach that uses edge-based masking instead of path-based masking):  
+$\mathbf{Our_{\delta}}$ (A variation of our approach that uses edge-based masking instead of path-based masking):  
 xxx
