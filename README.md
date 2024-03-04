@@ -8,7 +8,7 @@ The MIMIC-III and eICU databases are obtained from https://mimic.mit.edu/ and ht
 | :--- | :--- | :--- |
 | Number of patients | 0 | 0 |
 | Number of features | 20 | 19 |
-| Average miss rate of clinic feature | 0 | 0 |
+| Average missing rate of features | 0 | 0 |
 | Percentage of hospital death | 0 | 0 |
 | Average length of hospital stay | 0 | 0 |
 
