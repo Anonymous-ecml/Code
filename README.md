@@ -2,7 +2,7 @@
 python == 3.9.1 pytorch == 1.12.1 numpy == 1.22.4 pandas == 2.1.4 scikit-learn == 1.3.2 torch_geometric == 2.2.0
 
 ## Datasets
-We do not provide the MIMIC-III and eICU data ourselves. You must acquire the data yourself from https://mimic.physionet.org/ and https://eicu-crd.mit.edu. 
+The MIMIC-III and eICU databases are obtained from https://mimic.mit.edu/ and https://eicu-crd.mit.edu.
 
 | Statistics | MIMIC-III | eICU |
 | :--- | :--- | :--- |
@@ -12,4 +12,4 @@ We do not provide the MIMIC-III and eICU data ourselves. You must acquire the da
 | Percentage of hospital death | 0 | 0 |
 | Average length of hospital stay | 0 | 0 |
 
-详细的数据提取过程以及使用的特征 in ```data construction``` directory
+Detailed information of data extraction on the MIMIC-III and eICU databases can be found in ```data construction``` directory. 
