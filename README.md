@@ -12,3 +12,4 @@ We do not provide the MIMIC-III and eICU data ourselves. You must acquire the da
 | Percentage of hospital death | 0 | 0 |
 | Average length of hospital stay | 0 | 0 |
 
+详细的数据提取过程以及使用的特征 in ```data construction``` directory
