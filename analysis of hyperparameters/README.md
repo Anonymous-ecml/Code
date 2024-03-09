@@ -1,1 +1,1 @@
-
+我们展示了dropout rate, temperature parameter, numper of clusters超参数在Supervised Learning Setting下在MIMIC3和eICU数据集上对三个预测任务的影响。
