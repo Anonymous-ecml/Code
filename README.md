@@ -10,10 +10,10 @@ main.py contains both training code and evaluation code.
 
 ## Ablation Studies
 $\mathbf{Our_{\alpha}}$ (A variation of our approach that treats only the anchor and its counterparts in different graph views as positives):  
-在model.py中用clloss_alpha function替换clloss function
+在model.py中用clloss_alpha function替换clloss function  
 $\mathbf{Our_{\beta}}$ (A variation of our approach that omits the node connected to the anchor, which tests the efficacy of node-level clustering on patient graphs):  
-在model.py中用clloss_beta function替换clloss function
+在model.py中用clloss_beta function替换clloss function  
 $\mathbf{Our_{\gamma}}$ (A variation of our approach that omits the neighbors of the anchor):  
-在model.py中用clloss_gamma function替换clloss function
+在model.py中用clloss_gamma function替换clloss function  
 $\mathbf{Our_{\delta}}$ (A variation of our approach that uses edge-based masking instead of path-based masking):  
 用model-wo-MaskPath.py替换model.py
