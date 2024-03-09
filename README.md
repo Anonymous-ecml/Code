@@ -8,9 +8,6 @@ Detailed information of data extraction on the MIMIC-III and eICU databases can 
 ## Main Entrance
 main.py contains both training code and evaluation code.
 
-## Self-supervised and Supervised Learning Settings
-model.py 是Supervised Learning Setting的代码，model-ssl.py 是Self-supervised Learning Setting的代码
-
 ## Ablation Studies
 $\mathbf{Our_{\alpha}}$ (A variation of our approach that treats only the anchor and its counterparts in different graph views as positives):  
 在model.py中用clloss_alpha function替换clloss function  
@@ -20,3 +17,6 @@ $\mathbf{Our_{\gamma}}$ (A variation of our approach that omits the neighbors of
 在model.py中用clloss_gamma function替换clloss function  
 $\mathbf{Our_{\delta}}$ (A variation of our approach that uses edge-based masking instead of path-based masking):  
 用model-wo-MaskPath.py替换model.py
+
+## Self-supervised and Supervised Learning Settings
+model.py 是Supervised Learning Setting的代码，model-ssl.py 是Self-supervised Learning Setting的代码
