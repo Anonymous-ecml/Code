@@ -16,4 +16,4 @@ xxx
 $\mathbf{Our_{\gamma}}$ (A variation of our approach that omits the neighbors of the anchor):  
 xxx  
 $\mathbf{Our_{\delta}}$ (A variation of our approach that uses edge-based masking instead of path-based masking):  
-xxx
+用model-wo-MaskPath.py替换model.py
