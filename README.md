@@ -16,8 +16,8 @@ Replace the clloss function in model.py with the clloss_beta function.
 $\mathbf{Our_{\gamma}}$ (A variation of our approach that omits the neighbors of the anchor):  
 Replace the clloss function in model.py with the clloss_gamma function.   
 $\mathbf{Our_{\delta}}$ (A variation of our approach that uses edge-based masking instead of path-based masking):  
-Replace model.py with model-wo-MaskPath.  
+Replace model.py with model_wo_MaskPath.  
 
 ## Self-supervised and Supervised Learning Settings
 Supervised Learning Setting: model.py  
-Self-supervised Learning Setting: model-ssl.py
+Self-supervised Learning Setting: model_ssl.py
